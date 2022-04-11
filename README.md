@@ -2,12 +2,14 @@
 	
 	pip install tensorflow-gpu==1.14 //没有gpu  pip install tensorflow==1.14 cpu下跑测试可以
 	pip install tqdm
-	pip isntall opencv-python
+	pip install opencv-python
 	pip install matplotlib
 	pip install easydict
 
 //checkpoints下是在celebaA数据集训练的人脸检测和关键点检测模型 可以直接跑测试
+
 测试图片 python image_demo_hrnet.py
+
 测试摄像头 python video_demo_hrnet.py
 
 训练 ：
